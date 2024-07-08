@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pure-Foods-Store/static/css/main.d5289b2f.css",
+    "main.js": "/Pure-Foods-Store/static/js/main.ae0de7da.js",
+    "static/js/453.28bd3d3f.chunk.js": "/Pure-Foods-Store/static/js/453.28bd3d3f.chunk.js",
+    "index.html": "/Pure-Foods-Store/index.html",
+    "main.d5289b2f.css.map": "/Pure-Foods-Store/static/css/main.d5289b2f.css.map",
+    "main.ae0de7da.js.map": "/Pure-Foods-Store/static/js/main.ae0de7da.js.map",
+    "453.28bd3d3f.chunk.js.map": "/Pure-Foods-Store/static/js/453.28bd3d3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5289b2f.css",
+    "static/js/main.ae0de7da.js"
+  ]
+}
