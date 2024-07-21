@@ -1,0 +1,44 @@
+@import '../colorVariables.css';
+
+.BottomNavbar {
+    background-color: var(--dartmouth-green); /* Use the color variable */
+    color: white;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.BottomNavbar .banner {
+    width: 100%; /* Ensure full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background-color: var(--dartmouth-green); /* Use the color variable */
+}
+
+
+.BottomNavbar .deal {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 15px; /* Adjust font size */
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+
+.BottomNavbar .deal:not(:last-child)::after {
+    content: '|';
+    margin-left: 15px;
+    color: white; /* Divider color */
+}
+
+@media (max-width: 767.98px) {
+    .BottomNavbar .deal {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .BottomNavbar .deal:not(:last-child)::after {
+        content: '';
+    }
+}

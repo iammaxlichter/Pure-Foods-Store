@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap'; // Bootstrap grid compo
 
-function About() {
+function Home() {
     return (
-        <div id="about" className="about">
+        <div id="home" className="home">
             <Container>
                
             </Container>
@@ -11,4 +11,4 @@ function About() {
     );
 }
 
-export default About;
+export default Home;

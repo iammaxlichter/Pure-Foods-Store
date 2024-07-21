@@ -1,0 +1,82 @@
+@import '../colorVariables.css';
+
+.TopNavbar{
+    width: 100% !important; /* Ensure full width */
+}
+.TopNavbar .search-bar {
+    width: 53vw !important; /* Ensure it uses the full available width */
+    height: 40px; /* Example height adjustment */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none; /* Remove the right border */
+    border: 1px solid var(--dartmouth-green);
+    flex-grow: 1;
+    margin-left:-20px;
+}
+
+/* Change focus outline color for the search bar */
+.TopNavbar .search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px var(--dartmouth-green); /* More natural box-shadow for focus */
+}
+
+/* Apply focus styles to both the search bar and the button when input is focused */
+.TopNavbar .d-flex:focus-within .search-bar,
+.TopNavbar .d-flex:focus-within .search-button {
+    box-shadow: 0 0 5px 2px var(--dartmouth-green); /* More natural box-shadow for focus */
+}
+
+.TopNavbar .search-button {
+    background-color: var(--dartmouth-green); /* Use the variable here */
+    border: 1px solid var(--dartmouth-green); /* Example usage in border */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white; /* Example color */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+.TopNavbar .search-button:hover {
+    background-color: white; /* Change background color on hover */
+    border-color: var(--dartmouth-green); /* Keep border color on hover */
+    color: var(--dartmouth-green); /* Change text color on hover */
+}
+
+/* Styles for the sign-in section */
+.TopNavbar .sign-in {
+    display: flex;
+    align-items: center;
+    margin-left: 25px; /* Adjust spacing as needed */
+}
+
+.TopNavbar .sign-in-icon {
+    font-size: 28px; /* Adjust icon size as needed */
+    color: var(--dartmouth-green); /* Use the variable here */
+    margin-right:10px;
+}
+
+.TopNavbar .sign-in-text {
+    color: var(--dartmouth-green); /* Use the variable here */
+    font-size: 14px; /* Adjust text size as needed */
+}
+
+.TopNavbar .sign-in-text a {
+    color: var(--dartmouth-green); /* Use the variable here */
+    text-decoration: none; /* Remove underline */
+    margin-left: 5px; /* Adjust spacing as needed */
+}
+
+.TopNavbar .sign-in-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.TopNavbar .create-account-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styles for the cart icon */
+.TopNavbar .cart-icon {
+    font-size: 32px; /* Adjust icon size as needed */
+    color: var(--dartmouth-green); /* Use the variable here */
+    margin-left: 35px; /* Adjust spacing as needed */
+    cursor: pointer; /* Add pointer cursor */
+}

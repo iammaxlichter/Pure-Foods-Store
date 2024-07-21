@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import About from './components/About/About';
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -10,7 +11,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <About />
+    <div className='text-center'>
+    <Navbar />
+    </div>
+    <Home /> 
   </React.StrictMode>
 );
 
