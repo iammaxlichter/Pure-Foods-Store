@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Pure-Foods-Store/static/css/main.d5289b2f.css",
-    "main.js": "/Pure-Foods-Store/static/js/main.ae0de7da.js",
+    "main.css": "/Pure-Foods-Store/static/css/main.e7fa87e4.css",
+    "main.js": "/Pure-Foods-Store/static/js/main.17104fa9.js",
     "static/js/453.28bd3d3f.chunk.js": "/Pure-Foods-Store/static/js/453.28bd3d3f.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Pure-Foods-Store/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Pure-Foods-Store/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/pureFoodsLogoImage.png": "/Pure-Foods-Store/static/media/pureFoodsLogoImage.0bd85f5178633cd80c32.png",
     "index.html": "/Pure-Foods-Store/index.html",
-    "main.d5289b2f.css.map": "/Pure-Foods-Store/static/css/main.d5289b2f.css.map",
-    "main.ae0de7da.js.map": "/Pure-Foods-Store/static/js/main.ae0de7da.js.map",
+    "main.e7fa87e4.css.map": "/Pure-Foods-Store/static/css/main.e7fa87e4.css.map",
+    "main.17104fa9.js.map": "/Pure-Foods-Store/static/js/main.17104fa9.js.map",
     "453.28bd3d3f.chunk.js.map": "/Pure-Foods-Store/static/js/453.28bd3d3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5289b2f.css",
-    "static/js/main.ae0de7da.js"
+    "static/css/main.e7fa87e4.css",
+    "static/js/main.17104fa9.js"
   ]
 }
