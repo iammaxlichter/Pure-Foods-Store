@@ -4,7 +4,7 @@
     width: 100% !important; /* Ensure full width */
 }
 .TopNavbar .search-bar {
-    width: 53vw !important; /* Ensure it uses the full available width */
+    width: 45vw !important; /* Ensure it uses the full available width */
     height: 40px; /* Example height adjustment */
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
